@@ -1,9 +1,8 @@
-﻿using Jaxwood.Crypto;
-using System;
+﻿using System;
 using System.Security.Cryptography;
 using Xunit;
 
-namespace Crypto.Tests
+namespace Jaxwood.Crypto.Tests
 {
     public class RSACryptoTests
     {

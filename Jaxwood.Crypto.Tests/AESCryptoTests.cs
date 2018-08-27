@@ -1,7 +1,7 @@
 ﻿using System;
 using Xunit;
 
-namespace Crypto.Tests
+namespace Jaxwood.Crypto.Tests
 {
     public class AESCryptoTests
     {
