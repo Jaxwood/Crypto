@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Jacob Lorenzen</Authors>
+    <Company>Jaxwood</Company>
+    <Description>A cryptographic library that wraps the .NET `System.Security.Cryptography` library with opinionated defaults</Description>
+    <Copyright>MIT</Copyright>
+    <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/Jaxwood/Crypto</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Jaxwood/Crypto</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>cryptographic</PackageTags>
+  </PropertyGroup>
+
+</Project>
