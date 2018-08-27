@@ -15,4 +15,8 @@
     <PackageTags>cryptography</PackageTags>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.1\Jaxwood.Crypto.xml</DocumentationFile>
+  </PropertyGroup>
+
 </Project>

@@ -11,7 +11,7 @@ namespace Jaxwood.Crypto
     {
         /// <summary>
         /// Deserialize string representation into <see cref="System.Security.Cryptography.RSAParameters"/>
-        /// <seealso cref="https://github.com/dotnet/core/issues/874#issuecomment-323894072"/>
+        /// <para>see more <a href="https://github.com/dotnet/core/issues/874#issuecomment-323894072">here</a></para>
         /// </summary>
         /// <param name="rsa"><see cref="System.Security.Cryptography.RSA"/></param>
         /// <param name="xmlString"><see cref="System.String"/></param>
@@ -48,8 +48,8 @@ namespace Jaxwood.Crypto
         }
 
         /// <summary>
-        /// XML representation of a RSA key
-        /// <seealso cref="https://github.com/dotnet/core/issues/874#issuecomment-323894072"/>
+        /// Generate XML representation of a RSA key
+        /// <para>see more <a href="https://github.com/dotnet/core/issues/874#issuecomment-323894072">here</a></para>
         /// </summary>
         /// <param name="rsa"><see cref="System.Security.Cryptography.RSA"/></param>
         /// <param name="parameters"><see cref="System.Security.Cryptography.RSAParameters"/></param>
