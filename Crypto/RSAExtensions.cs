@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Xml;
 
-namespace Crypto
+namespace Jaxwood.Crypto
 {
     /// <summary>
     /// Extensions for <see cref="System.Security.Cryptography.RSA"/> as dotnet Core2.1 does not support <see cref="System.Security.Cryptography.RSA.ToXmlString(bool)"/> and <see cref="RSA.FromXmlString(string)"/>

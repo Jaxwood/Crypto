@@ -1,7 +1,7 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
 
-namespace Crypto
+namespace Jaxwood.Crypto
 {
     public class RSACrypto
     {
