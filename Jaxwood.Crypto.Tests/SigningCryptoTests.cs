@@ -1,11 +1,8 @@
-﻿using Jaxwood.Crypto;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Security.Cryptography;
-using System.Text;
 using Xunit;
 
-namespace Crypto.Tests
+namespace Jaxwood.Crypto.Tests
 {
     public class SigningCryptoTests
     {

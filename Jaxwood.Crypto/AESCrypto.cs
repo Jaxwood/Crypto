@@ -1,9 +1,8 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace Crypto
+namespace Jaxwood.Crypto
 {
     /// <summary>
     /// Exposes <see cref="EncryptData(byte[])"/> and <see cref="DecryptData(byte[])"/> using the <see cref="System.Security.Cryptography.AesCryptoServiceProvider"/> class
