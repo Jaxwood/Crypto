@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Crypto\Crypto.csproj" />
+    <ProjectReference Include="..\Jaxwood.Crypto\Jaxwood.Crypto.csproj" />
   </ItemGroup>
 
 </Project>
