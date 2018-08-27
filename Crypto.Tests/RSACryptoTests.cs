@@ -27,7 +27,7 @@ namespace Crypto.Tests
 
             var cipher = sut.EncryptData(expected);
             cipher[0]++;
-            Assert.Throws<CryptographicException>(() => sut.DecryptDataToString(cipher));
+            Assert.ThrowsAny<SystemException>(() => sut.DecryptDataToString(cipher));
         }
 
         private (string, string) GeneratePublicPrivateKeys()
